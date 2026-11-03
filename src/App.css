@@ -1,0 +1,160 @@
+/* App.css */
+body {
+  background-color: #f7f8fa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 680px; 
+  margin: 50px auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #dcdfe6;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #212529;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #343a40;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #cbd5e1;
+  font-weight: 600;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+.input, .textarea, .select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #adb5bd;
+  background-color: #ffffff;
+  color: #495057;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus, .textarea:focus, .select:focus {
+  border-color: #ff5252;
+  box-shadow: 0 0 0 3px rgba(255, 82, 82, 0.15);
+}
+
+.input::placeholder, .textarea::placeholder {
+  color: #adb5bd;
+}
+
+.textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.add-button {
+  width: 100%;
+  padding: 11px;
+  background-color: #ff5252;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #ff3333;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 14px 16px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e1;
+  transition: background-color 0.2s;
+}
+
+.card:hover {
+  background-color: #f8f9fa;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  margin: 0;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.star-rating {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.review-text {
+  margin-top: 6px;
+  color: #6c757d;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.delete-button {
+  background: transparent;
+  color: #adb5bd;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.delete-button:hover {
+  color: #ff5252;
+}
+
+.empty-message {
+  text-align: center;
+  color: #adb5bd;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 20px;
+}
